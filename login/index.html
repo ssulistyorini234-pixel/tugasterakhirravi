@@ -163,5 +163,11 @@
     <script src="../../shared/js/form-utils.js"></script>
     <script src="script.js"></script>
     <script src="login/js/welcome.js"></script>
+    <script>document.getElementById("loginForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    window.location.href = "../index.html";
+});
+    </script>
 </body>
 </html>
