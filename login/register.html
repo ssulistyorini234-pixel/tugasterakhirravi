@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+</head>
+<body>
+
+<h2>Daftar Akun</h2>
+
+<form onsubmit="return daftar()">
+    <input type="text" placeholder="Nama" required><br><br>
+    <input type="email" placeholder="Email" required><br><br>
+    <input type="password" placeholder="Password" required><br><br>
+
+    <button type="submit">Daftar</button>
+</form>
+
+<script>
+function daftar() {
+    alert("Pendaftaran berhasil!");
+    window.location.href = "index.html";
+    return false;
+}
+</script>
+
+</body>
+</html>
